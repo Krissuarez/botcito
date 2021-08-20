@@ -5154,7 +5154,7 @@ break
 
 default:
 if (body.startsWith(">")) {
-if (!itsMe) return await reply('Este comando solo puede ser usado por *Samu330* ⚙')
+if (!itsMe) return await reply('Este comando solo puede ser usado por *BOTCITO* ⚙')
 return await reply(JSON.stringify(eval(args.join(" ")), null, 2))
 }
 if (body.startsWith('buenos dias')) {
@@ -5172,7 +5172,7 @@ estadops = await samu330.getStatus(from)
 samu330.sendMessage(from, fotops, image, {caption: `*Numero de Usuario en formato completo:* ${from}
 *Numero registrado:* ${from.split('@')[0]}
 
-*Link de WhatsApp:* wa.me/${from.split('@')[0]}
+*
 
 
 *Hora y fecha exacta en la que se lleva acabo esta conversación:*
