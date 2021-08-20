@@ -246,7 +246,7 @@ message: {
 "mimetype": "image/jpeg",             
 "jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)           
 },                                
-"title": `Bienvenido a ${mdata.subject}`,
+"title" : `Bienvenido a $ { mdata . asunto } ` ,
 "description": "",                
 "currencyCode": "SYP",                  
 "priceAmount1000": "999999999999999999",
