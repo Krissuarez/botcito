@@ -1,13 +1,13 @@
 {
   "name": "NyanBot",
-  "version": "99999.9.9",
+  "version": "2, 2143, 3",
   "description": "Termux only",
   "main": "samu.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.0",
+    "@adiwajshing/baileys": "^2, 2143, 3",
     "form-data": "^4.0.0",
     "crypto-js": "^4.0.0",
     "async": "^2.4.1",
